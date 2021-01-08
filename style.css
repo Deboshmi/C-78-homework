@@ -1,0 +1,13 @@
+#firstp{
+    word-spacing: 10px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 80px;
+    color:red
+  }
+  body{
+    text-align: center; 
+  }
+  #text{
+    font-size:50px;
+  }

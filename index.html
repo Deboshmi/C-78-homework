@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p id="firstp">My Family Book</p>
+        <img id="album"
+        src="https://images-na.ssl-images-amazon.com/images/I/51KNpAKei-L.jpg";<br>
+        <p id="text"> My family book</p>  </br> 
+        <script>
+            var names = [
+            "My father",
+            "My Mother",
+            "Me"
+             ];
+            var images = [
+                "https://cdn1.vectorstock.com/i/1000x1000/67/45/man-cartoon-icon-vector-13306745.jpg",
+            "https://cdn4.vectorstock.com/i/1000x1000/28/63/business-woman-cartoon-character-beautiful-lady-vector-22952863.jpg",
+                "https://previews.123rf.com/images/dualororua/dualororua1708/dualororua170800192/83761031-cute-little-girl-cartoon.jpg"
+            ];
+            var i = 0;
+function nextslide() {  document.getElementById("text").innerHTML = names[i];
+  document.getElementById("album").src = images[i];
+  i++;}
+        </script>
+        <button type="button" onclick="nextslide()"> Next </button>
+        </body>
+</html>
